@@ -16,7 +16,7 @@ Developed a minimal yet functional multi-agent pipeline that:
 - Uses a shared MCP Context object that mimics how agents communicate via context in a real MCP system
 
 # Agent Workflow (MCP-style Routing)
-- The program starts with an input text file (sample.txt)
+- The program starts with an input text file (sample.txt)- 
 - The "SummariserAgent" reads the text and extracts a short summary
 - It updates the shared context with that summary
 - The "ChartAgent" retrieves the summary from the context

@@ -28,7 +28,7 @@ Context(user_input=Summarise the document and show word frequency chart, summary
 
 # Real-World Relevance
 - This project mirrors foundational design patterns used in LangChain agent chains, OpenAI Assistants API, Microsoft AutoGen tool routing and RAG systems using vector stores and summarisation agents
-- It shows how large-scale assistants could Summarise long documents, Generate dashboards or insights and Interact with multiple tools (summariser, chart, DB) in a memory-aware, sequential workflow
+
 
 
 

@@ -16,11 +16,14 @@ Developed a minimal yet functional multi-agent pipeline that:
 - Uses a shared MCP Context object that mimics how agents communicate via context in a real MCP system
 
 # Agent Workflow (MCP-style Routing)
-- The program starts with an input text file (sample.txt)- 
-- The "SummariserAgent" reads the text and extracts a short summary
+- The program starts with an input text file (sample.txt)- "The Model Context Protocol (MCP) is an emerging open standard designed to connect AI assistants to the systems where data lives, enabling them to access and utilize information more effectively. It aims to create a more standardized and open ecosystem for AI applications by providing a universal way to connect AI systems with various data sources and tools."
+- The "SummariserAgent" reads the text and extracts a short summary- [SummariserAgent] Summarising text...
+[ChartAgent] Generating word frequency chart...
+[ChartAgent] Chart generated and saved.
 - It updates the shared context with that summary
 - The "ChartAgent" retrieves the summary from the context
-- It analyses the frequency of words in the summary and generates a visual bar chart
+- It analyses the frequency of words in the summary and generates a visual bar chart- "Final Context State:
+Context(user_input=Summarise the document and show word frequency chart, summary=The Model Context Protocol (MCP) is an emerging open standard designed to connect AI assistants to the systems where data lives, enabling them to access and utilize information more effectively.  It aims to create a more standardized and open ecosystem for AI applications by providing a universal way to connect AI systems with various data sources and tools, chart_data=[('to', 5), ('ai', 3), ('and', 3), ('the', 2), ('open', 2)])"
 - The chart is saved locally as word_freq_chart.png
 
 # Real-World Relevance
